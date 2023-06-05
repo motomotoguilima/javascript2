@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro do usuario</title>
+    <link rel="stylesheet" href="ex026.css">
+    <script defer src="ex026.js"></script>
+</head>
+
+<body>
+    <h1> cadastro de usuário </h1>
+    <div class="atividade26">
+
+        <div>
+            <label>nome:</label>
+            <input type="text" id="inp"  placeholder="digite o seu nome">
+        </div>
+        <br>
+        <div>
+            <label>usuario:</label>
+            <input type="text" id="inp2" placeholder="digite o seu login">
+        </div>
+        <br>
+        <div>
+            <label>senha:</label>
+            <input type="password" id="inp3"  placeholder="digite a sua senha">
+        </div>
+        <br>
+        <div>
+            <label>senha:</label>
+            <input type="password" id="inp4"  placeholder="confirme a sua senha">
+        </div>
+       <br>
+       <br>
+        <div>
+            <button class="botao" onclick="cadastrarUsuario()"> cadastrar usuario</button>
+     </div>
+<br>
+<div>
+    <button onclick="limpar()"> limpar </button>
+</div>
+<br>
+        <h2> lista de usuarios cadastrados </h2>
+        <p id="resultados"></p>
+    </div>
+    <h1>Sesi / Senai - Curso Desenvolvimento de Sistemas </h1>
+</body>
+
+</html>

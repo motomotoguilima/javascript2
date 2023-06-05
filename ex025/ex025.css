@@ -1,0 +1,38 @@
+body {
+    background-color: aquamarine ;
+}
+
+.atividade25 {
+    background-color: rgb(219, 119, 57);
+    width: 600px;
+    background-color: rgb(224, 139, 65);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px 2px black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+h1 {
+    color: rgb(97, 65, 224);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.img{
+    max-height: 200px;
+    max-width: 200px;
+}
+#resultados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+.meio{
+margin: auto 0;
+align-items: center;
+}
